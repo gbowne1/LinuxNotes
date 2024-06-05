@@ -1,6 +1,7 @@
 # LinuxNotes
 
-A collection of notes and tips for Linux shell/terminal/console/tty/bash commands, tailored for Debian and Ubuntu users.
+A collection of notes and tips for Linux shell/terminal/console/tty/bash commands, tailored for Debian and Ubuntu users but these
+may work in systems that have GNU and other utilities installed.
 
 ## Table of Contents
 

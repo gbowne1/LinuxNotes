@@ -8,25 +8,25 @@ usage seems to be fdisk [options]
 
 ## lowercase option flags
 
-`fdisk -b` requires argument
+`fdisk -b` requires argument. used to specify the sector size in bytes  when using the fdisk command-line utility for partitioning storage devices
 
-`fdisk -c` says bad usage
+`fdisk -c` says bad usage. this is not actually a command.
 
 `fdisk -h` prints help
 
-`fdisk -l` lists disks and needs sudo perms
+`fdisk -l` lists disks and needs sudo perms. this lists the partitions. `sudo fdisk -l`
 
 `fdisk -o` says option requires an argument
 
-`fdisk -s` says bad usage
+`fdisk -s` says bad usage. this is not actually a command.
 
-`fdisk -t` says option requires an argument
+`fdisk -t` says option requires an argument. allows you to change the type of an existing partition on your storage device `sudo fdisk -t /dev/sdX type_code`
 
 `fdisk -u` says bad usage
 
 `fdisk -v` prints the version
 
-`fdisk -w` says option requires an argument
+`fdisk -w` says option requires an argument. used to write the changes you've made to the partition table on your storage device `sudo fdisk -w /dev/sdX`
 
 ## uppercase flags
 
