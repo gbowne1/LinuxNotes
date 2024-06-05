@@ -24,6 +24,7 @@ uname (GNU coreutils) 8.30 from the FSF.
 
 Help is available by uname --help  and currently shows:
 
+```shell
 $ uname --help
 Usage: uname [OPTION]...
 Print certain system information.  With no OPTION, same as -s.
@@ -40,6 +41,7 @@ Print certain system information.  With no OPTION, same as -s.
   -o, --operating-system   print the operating system
       --help     display this help and exit
       --version  output version information and exit
+```
 
 GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation at: <https://www.gnu.org/software/coreutils/uname>
