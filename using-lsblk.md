@@ -1,28 +1,28 @@
 # using lsblk
 
-`lsblk -a` includes loop devices?
+`lsblk -a` used to list all block devices.  includes loop devices?
 
-`lsblk -b`
+`lsblk -b`. May not actually exist
 
-`lsblk -d`
+`lsblk -d` lists information in a `distinguishing` state
 
-`lsblk -e`
+`lsblk -e` displays info about all block devices including those not mounted
 
-`lsblk -f` shows uuid, mountpoin, label, fstype,
+`lsblk -f` displayed info in a `full` format.  shows uuid, mountpoin, label, fstype,
 
-`lsblk -h`
+`lsblk -h` displays info in a human readable format
 
-`lsblk -i`
+`lsblk -i` displays detailed information with focus on I/O capabilities
 
-`lsblk -l`
+`lsblk -l` displays all information including their attributes
 
 `lsblk -m` shows permissions
 
-`lsblk -n`
+`lsblk -n` May not actually exist, but still returns
 
-`lsblk -o` requires an argument
+`lsblk -o` requires an argument.  Not a standard option flag.  but can be used to customize output by FIELD. `lsblk -o NAME,SIZE`
 
-`lsblk -p`
+`lsblk -p` lists information by their physical path
 
 `lsblk -r`
 
