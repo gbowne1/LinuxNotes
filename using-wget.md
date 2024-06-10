@@ -8,43 +8,43 @@ There is also a crap ton of `--` flags used.
 
 ## Lowercase option flags
 
-`wget -a` says option requires an argument -- `a`
+`wget -a` says option requires an argument -- `a`. May not exist. Probably actually `-A`
 
-`wget -b` says missing URL
+`wget -b` says missing URL. Used to resume interrupted downloads.
 
-`wget -c` says misisng URL
+`wget -c` says misisng URL. used to continue interrupted downloads, similar to -b
 
-`wget -d` says missing URL
+`wget -d` says missing URL. used for directory recursion. It instructs wget to download files and their directory structure recursively from a website.
 
-`wget -e` says option requires an argument -- `e`
+`wget -e` says option requires an argument -- `e`. used to specify the maximum number of retries for failed downloads.
 
 `wget -h` prints help
 
-`wget -i` says option requires an argument -- `i`
+`wget -i` says option requires an argument -- `i`. used to download files from a list contained in a text file.
 
-`wget -k` says missing URL
+`wget -k` says missing URL. May not exist.  May actually be `-K`
 
-`wget -l` says option requires an argument -- `l`
+`wget -l` says option requires an argument -- `l`. instructs it to print links found in downloaded HTML files.
 
-`wget -m` says missing URL
+`wget -m` says missing URL. used for mirroring, which means creating a local copy of a remote website's directory structure and files
 
-`wget -n` says option requires an argument -- `n`
+`wget -n` says option requires an argument -- `n`. tells it to not try to clobber existing files
 
-`wget -o` says option requires an argument -- `o`
+`wget -o` says option requires an argument -- `o`.  used to specify a log file where wget will write information about the download process
 
-`wget -p` says missing URL
+`wget -p` says missing URL.  used to specify a log file where wget will write information about the download process. `wget -m -p`
 
-`wget -q` says missing URL
+`wget -q` says missing URL. used to suppress the output that wget normally generates during the download process. In other words, it tells wget to operate in quiet mode
 
-`wget -r` says missing URL
+`wget -r` says missing URL. used for recursive downloads
 
-`wget -t` says option requires an argument -- `t`
+`wget -t` says option requires an argument -- `t`. command is used to specify the number of retry attempts for failed downloads. `wget -t 3 http://example.com/file.zip`
 
-`wget -v` says missing URL
+`wget -v` says missing URL. instructs it to be verbose during the download process.
 
-`wget -w` says option requires an argument -- `w`
+`wget -w` says option requires an argument -- `w`. In older versions this specified wait time.  but this may be related to `--warc-file`
 
-`wget -x` says missing URL
+`wget -x` says missing URL. used to **force wget to treat the following argument as a list of FTP exclusion patterns.
 
 ## Uppercase option flags
 

@@ -3,7 +3,6 @@
 My netstat is /usr/bin/netstat /usr/share/man/man8/netstat.8.gz
 My version is net-tools 2.10-alpha
 
-
 ## lowercase flags
 
 netstat -a

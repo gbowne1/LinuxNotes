@@ -1,10 +1,10 @@
 # using ulimit
 
-`ulimit -a`
+`ulimit -a` displays all the current resource limits for the shell process
 
-`ulimit -c`
+`ulimit -c` specifically deals with the core file size limit for the current shell process. you can set it with `ulimit -c <limit>`
 
-`ulimit -d`
+`ulimit -d`  controls the maximum size of the data segment for the current shell process.
 
 `ulimit -e`
 
