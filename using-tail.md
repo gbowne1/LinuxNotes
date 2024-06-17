@@ -26,6 +26,8 @@ it is in /usr/bin/tail
 
 ## other flags
 
+`tail -F` cannot follow `-` by name.  Not sure what this does or how its used.
+
 `tail --version`
 
 `tail --help`
