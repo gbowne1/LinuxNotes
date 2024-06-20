@@ -1,4 +1,4 @@
-# using ps cmmand 
+# using ps cmmand
 
 ps -a
 ps -c
@@ -38,3 +38,11 @@ ps -U says list of real users must follow -U
 ps -V prints version ps from procps-ng 3.3.15
 ps -X prints by PID then hex
 ps -Z prints by label
+
+## Some common uses of ps
+
+    ps aux shows all processes running for all users
+    ps -ef shows a full listing of all processes in a tree format
+    ps -u username shows processes for a specific user
+    ps aux --sort=-pcpu sorts processes by CPU usage (descending order)
+    ps -o pid,user,command displays only the PID, user, and command for each process
