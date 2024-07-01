@@ -1,7 +1,7 @@
 # using nmap
 
-Nmap 7.70 ( https://nmap.org )
-Man page at (https://nmap.org/book/man.html)
+Nmap 7.70 ( <https://nmap.org> )
+Man page at (<https://nmap.org/book/man.html>)
 
 nmap -a says option is ambiguous
 
@@ -29,7 +29,7 @@ nmap -o says "option requires an argument -- 'o'
 
 nmap -p says "option requires an argument -- 'p`
 
-nmap -q 
+nmap -q
 
 nmap -r
 
@@ -37,11 +37,10 @@ nmap -s says "option requires an argument -- 's`
 
 nmap -t says option is ambiguous
 
-nmap -u 
+nmap -u
 
-nmap -v 
+nmap -v
 
 nmap -w
 
 haven't tried any uppercase option flags yet
-
