@@ -1,5 +1,9 @@
 # IRC commands
 
+`/msg NickServ REGISTER yourpassword youremail@example.com` 
+
+/invite username
+
 /join #channel - joins a channel
 
 /join #channelname password - joins a channel with a password
@@ -28,7 +32,7 @@
 
 /server serveraddress
 
-/me action
+/me actiond
 
 /notice nickname message
 
@@ -36,7 +40,12 @@
 
 ## Commands for for channel operators:
 
-channel operators are anyone w
+To give yourself OP use `/msg ChanServ OP #channel yournick`
+
+SETOP usually doesn't work?
+
+channel operators are anyone with an `@`
+
 replace #channel with the channel you want to set the option
 
 /mode #channel +v nickname grants operator privledges to a user
