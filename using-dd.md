@@ -6,23 +6,39 @@ This particular command does not use upper or lowercase flags or options.
 
 ## dd options
 
-if=
-of=
-bs=
-count=
-skip=
-seek=
-status=
-conv=
-iflag=
-oflag=
-ibs=
-obs=
-noerror=
-notrunc=
-sync=
-progress=
-nocreat=
+if= Input file. Specifies the input file or device.
+
+of= Output file. Specifies the output file or device.
+
+bs= Block size. Sets the block size for reading and writing.
+
+count= Number of blocks to copy. Limits the number of bytes copied.
+
+skip= Number of blocks to skip at the beginning of the input file.
+
+seek= Number of blocks to seek ahead in the output file.
+
+status= Controls the progress reporting. Can be set to none, progress, or process.
+
+conv= Conversion options. Useful for byte swapping or text encoding.
+
+iflag= Input and output flags. Control how dd reads from and writes to files/devices.
+
+oflag= Input and output flags. Control how dd reads from and writes to files/devices.
+
+ibs= Input and output block sizes. Different from bs when dealing with multibyte characters.
+
+obs= Input and output block sizes. Different from bs when dealing with multibyte characters.
+
+noerror= Continue on read errors. Ignores errors encountered during the copy process
+
+notrunc= Do not truncate the output file. Preserves existing data in the output file.
+
+sync= Synchronize I/O operations. Ensures that all data is written before exiting.
+
+progress= Show progress bar. Provides visual feedback on the progress of the operation.
+
+nocreat=  Do not create the output file if it does not exist. Only truncates it.
 
 ## Things you can do with dd
 
