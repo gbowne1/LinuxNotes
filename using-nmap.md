@@ -43,4 +43,19 @@ nmap -v
 
 nmap -w
 
-haven't tried any uppercase option flags yet
+## uppercase option flags
+
+nmap -A
+nmap -D
+nmap -F
+nmap -I
+nmap -O
+nmap -P
+nmap -R
+nmap -S
+nmap -T
+nmap -V
+
+nmap --version
+
+

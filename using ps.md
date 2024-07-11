@@ -1,6 +1,7 @@
 # using ps cmmand
 
-ps -a
+`ps -a`
+
 ps -c
 ps -d
 ps -e
@@ -15,6 +16,7 @@ ps -o says format specification must follow -o
 ps -p says list of process ID's must follow -p
 ps -q says list of process ID's must follow -q
 ps -r
+
 ps -s
 ps -t
 ps -u sorts by user?
