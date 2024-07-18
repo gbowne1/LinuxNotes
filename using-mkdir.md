@@ -1,5 +1,7 @@
 # using mkdir
 
+This thing will make directories.
+
 My mkdir version is from mkdir (GNU coreutils) 8.30.
 It lives in /usr/bin/mkdir
 

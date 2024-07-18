@@ -1,5 +1,9 @@
 # tmux
 
+My tmux is tmux 2.8. at the time of this writing the latest is 3.4
+
+My tmus is at /usr/bin/tmux /etc/tmux.conf /usr/share/man/man1/tmux.1.gz
+
 ## Installing tmux
 
 sudo apt install tmux
@@ -12,7 +16,7 @@ there is documentation at `man tmux`.
 
 The github is at <https://github.com/tmux/tmux>
 
-Systemwide configruation is at `/etc/tmux.conf`
+System-wide configuration is at `/etc/tmux.conf`
 
 ## shell flags used with tmux
 

@@ -52,36 +52,38 @@ Using the ls command Anything not in this list doesn't return anything.  My ls c
 
 ### Uppercase flags
 
-`ls -A`
+`ls -A` shows all files and directories except those whose names begin with a dot (.).
 
-`ls -B`
+`ls -B`  This flag uses a block size of one kilobyte for displaying file sizes.
 
-`ls -C`
+`ls -C`  This flag aligns the output in columns
 
-`ls -D`
+`ls -D`  This flag prints the parent directory name in the last column of the output
 
-`ls -F`  ends each entry with / in a wide format
+`ls -F`  Ends each entry with a character indicating the type of file
 
-`ls -G`
+`ls -G` Similar to -F, but uses a different set of symbols. It's another way to visually distinguish file types in the output.
 
-`ls -H`
+`ls -H`  Like -F, but treats symlinks specially, showing the target of the link instead of the symlink itself.
 
-`ls -I` requires an argument
+`ls -I` requires an argument. `ls -I <pattern>` Shows all files and directories except those matching the given pattern. You need to replace <pattern> with the actual pattern you want to exclude.
 
-`ls -L`
+`ls -L` When used with symbolic links, this flag shows the contents of the linked-to directory instead of the link itself.
 
-`ls -N`
+`ls -N` Appends a trailing slash (/) to directories. This makes it easier to distinguish them from regular files in the output.
 
-`ls -Q` all entries appear in between double quotes in a wide format
+`ls -Q` all entries appear in between double quotes in a wide format. Encloses filenames in double quotes. This is especially useful when dealing with filenames that contain spaces or special characters.
 
-`ls -R` very interesting output when done by itself
+`ls -R` Recursively lists subdirectories. If used alone, it will recursively list all subdirectories starting from the current directory.
 
-`ls -S`
+`ls -S` Sorts files by size, largest first. This is useful for quickly finding the largest files in a directory.
 
-`ls -T` requires an argument.
+`ls -T` requires an argument.  Adds a time stamp to each file. The timestamp indicates the last modification time of the file.
 
-`ls -U`
+`ls -U` Uses a less ambiguous format for timestamps. Instead of the standard MMM DD HH:MM:SS YYYY, it uses YYYY-MM-DD HH:MM.
 
-`ls -X` lists dirs/folders on the left half of a wide format output
+`ls -X` lists dirs/folders on the left half of a wide format output. Lists directories on the left half of the screen when using a wide format. This helps in scanning through directories quickly.
 
-`ls -Z` lists all entries with a ? in a wide format
+`ls -Z` lists all entries with a ? in a wide format. Displays a question mark (?) at the end of each filename. This is part of the "wide" format, similar to -F and -G.
+
+`ls -lCF --color=auto` This command lists files in long format (-l), adds slashes at the end of directories (-C), and colors the output (--color=auto).

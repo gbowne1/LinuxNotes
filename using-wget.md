@@ -48,44 +48,49 @@ There is also a crap ton of `--` flags used.
 
 ## Uppercase option flags
 
-`wget -A` says option requires an argument -- `A`
+`wget -A` says option requires an argument -- `A`. Accept only certain file types
 
-`wget -B` says option requires an argument -- `B`
+`wget -B` says option requires an argument -- `B` Set the directory prefix to BASE
 
-`wget -D` says option requires an argument -- `D`
+`wget -D` says option requires an argument -- `D`. Set the directory prefix to BASE
 
-`wget -E` says missing URL
+`wget -E` says missing URL. Use server-specified encoding type.
 
-`wget -F` says missing URL
+`wget -F` says missing URL. Turn off SSL certificate verification
 
-`wget -H` says missing URL
+`wget -H` says missing URL. Enable HTTP proxy support
 
-`wget -I` says option requires an argument -- `I`
+`wget -I` says option requires an argument -- `I`. Specify URLs to get.
 
-`wget -K` says missing URL
+`wget -K` says missing URL Follow redirects
 
-`wget -L` says missing URL
+`wget -L` says missing URL. Follow links in HTML instead of downloading the HTML itself
 
-`wget -N` says missing URL
+`wget -N` says missing URL. Turn on timestamping.
 
-`wget -O` says option requires an argument -- `O`
+`wget -O` says option requires an argument -- `O`. Specify the filename for the downloaded content.
 
-`wget -P` says option requires an argument -- `P`
+`wget -P` says option requires an argument -- `P`. Specify the directory prefix to use when saving locally.
 
-`wget -Q` says option requires an argument -- `Q`
+`wget -Q` says option requires an argument -- `Q`. Disable printing of the size of downloadable files.
 
-`wget -R` says option requires an argument -- `R`
+`wget -R` says option requires an argument -- `R`. Exclude certain files from what gets downloaded.
 
-`wget -S` says missing URL
+`wget -S` says missing URL. Turn on logging of all network activity.
 
-`wget -T` says option requires an argument -- `T`
+`wget -T` says option requires an argument -- `T`. Set modification time of local files.
 
-`wget -U` says option requires an argument -- `U`
+`wget -U` says option requires an argument -- `U`, Override the User-Agent header sent to the server.
 
-`wget -V` prints version information
+`wget -V` prints version information. Output version information and exit.
 
-`wget -X` says option requires an argument -- `X`
+`wget -X` says option requires an argument -- `X` Exclude files matching shell pattern from what gets downloaded.
 
-`wget -Y` says option requires an argument -- `Y`
+`wget -Y` says option requires an argument -- `Y`. Turn on server-sent event support
 
 wget help is at `wget --help` or `wget -h`
+
+Interesting things to do like download PDF's
+wget -r -np -l inf -A pdf -w 1 http://example.com
+wget -q --show-progress -r -np -l inf -A pdf -w 1 http://example.com
+wget -r -np -l inf -A pdf -w 1 -P /path/to/download/directory http://example.com

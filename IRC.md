@@ -1,8 +1,12 @@
 # IRC commands
 
-`/msg NickServ REGISTER yourpassword youremail@example.com` 
+`/msg NickServ REGISTER yourpassword youremail@example.com`
 
 /invite username
+
+/disconnect or /disconnect servername will disconnect you from the server you are logged into or the specified server.
+
+/msg NickServ IDENTIFY nickname password will identify you to the server
 
 /join #channel - joins a channel
 

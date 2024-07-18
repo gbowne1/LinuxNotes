@@ -1,5 +1,7 @@
 # using lsblk
 
+The lsblk command is a versatile tool used in Unix-like operating systems to list information about all available or the specified block devices. Block devices represent storage devices such as hard drives, SSDs, and removable media like USB flash drives.
+
 `lsblk -a` used to list all block devices.  includes loop devices?
 
 `lsblk -b`. May not actually exist
