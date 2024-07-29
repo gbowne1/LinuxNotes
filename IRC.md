@@ -36,7 +36,7 @@
 
 /server serveraddress
 
-/me actiond
+/me action
 
 /notice nickname message
 

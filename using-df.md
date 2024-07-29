@@ -1,6 +1,8 @@
 # Using df
 
-Here are the flags that can be used with and what they do
+The df command in Linux is a utility used to report file system disk space usage. It stands for "disk free" and provides information about the total space, used space, available space, and the percentage of space used for each mounted file system. This command is invaluable for system administrators and users who need to monitor disk space usage on their systems
+
+Here are the flags that can be used with `df` and what they do
 
 My version of df seems to be
 

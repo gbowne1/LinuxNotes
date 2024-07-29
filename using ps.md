@@ -49,19 +49,33 @@ The ps command is a fundamental tool in Unix-like operating systems for monitori
 ## uppercase option flags
 
 `ps -C` says list of command names must follow -C
+
 `ps -F`
+
 `ps -G` says list of real groups must follow -G
+
 `ps -H`
+
 `ps -L`
+
 `ps -M` sorts by label
+
 `ps -N` sorts by PID
+
 `ps -O` says format or sort specifications must follow -O
+
 `ps -P`
+
 `ps -S`
+
 `ps -T`
+
 `ps -U` says list of real users must follow -U
+
 `ps -V` prints version ps from procps-ng 3.3.15
+
 `ps -X` prints by PID then hex
+
 `ps -Z` prints by label
 
 ## Some common uses of ps

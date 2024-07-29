@@ -33,3 +33,7 @@
 `ulimit -v`
 
 `ulimit -x`
+
+`ulimit -H` unlimited
+
+`ulimit -S` unlimited

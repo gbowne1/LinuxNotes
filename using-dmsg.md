@@ -1,4 +1,4 @@
-# using dmsg
+# using dmesg
 
 `dmesg -c`
 
@@ -18,7 +18,7 @@
 
 `dmesg -n` says option requires an argument -- `n`
 
-`dmesg -p` 
+`dmesg -p`
 
 `dmesg -r`
 
