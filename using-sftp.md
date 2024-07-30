@@ -4,13 +4,13 @@ To install
 `sudo apt update`
 `sudo apt install openssh-server`
 
-# configure
+## configure
 
 `sudo nano /etc/ssh/sshd_config` (or use whatever editor you like)
 
 At this point, I think it would be a great idea to create a chroot jail.
 
-This would primarily be to restrict SFTP users to their home directory, you can create a chroot jail. 
+This would primarily be to restrict SFTP users to their home directory, you can create a chroot jail.
 
 Add the following to your `/etc/ssh/sshd_config`
 
@@ -67,7 +67,7 @@ Consider rate limiting:
 
 To prevent brute force attacks, you might want to install and configure fail2ban.
 
-# setup access 
+# setup access
 
 Enable SFTP Subsystem: Ensure that the SFTP subsystem is enabled by looking for the line that says Subsystem sftp /usr/lib/openssh/sftp-server.
 
@@ -75,7 +75,7 @@ If it's commented out (starts with a #), remove the # to uncomment it. save the 
 
 `sudo systemctl restart ssh`
 
-By default, users will not have a home directory under /var/sftp, so you'll need to create one for them. 
+By default, users will not have a home directory under /var/sftp, so you'll need to create one for them.
 
 This is a common practice to separate SFTP traffic from regular FTP traffic
 

@@ -51,16 +51,14 @@ this should be the complete dependency tree for mpv to work properly on debian b
 
 to connect to twitch.tv use the https://twitch.tv/ full link for any channel you want to watch.
 
-the command syntax is `mpv https://twitch.tv/channelnamehere` 
+the command syntax is `mpv https://twitch.tv/channelnamehere`
 
 ## notes
 
-You won't get Twitch chat. It will start with an ad playing with a countdown.  
+You won't get Twitch chat. It will start with an ad playing with a countdown.
 
 If you know of any other dependency that needs to be installed please let me know.
 
 you may not need youtube-dl as its deprecated but wouldn't hurt to have installed as wel as it may come up in suggested packages.
 
 you will need IRC client to connect to twitch chat..  I may make a guide for rtmp streams or network streams. but it should be pretty much the same.
-
-

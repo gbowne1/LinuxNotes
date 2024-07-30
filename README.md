@@ -3,6 +3,8 @@
 A collection of notes and tips for Linux shell/terminal/console/tty/bash commands, tailored for Debian and Ubuntu users but these
 may work in systems that have GNU and other utilities installed.
 
+I made this so that command usage is much more easy and accessible than looking at man pages or searching online references.
+
 ## Table of Contents
 
 - [LinuxNotes](#linuxnotes)

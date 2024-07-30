@@ -4,6 +4,7 @@ Networking in Linux can be a bit daunting and confusing, at least to me, if you 
 
 There are a bunch commonly used linux command line utilities
 
+bind
 ip
 netstat
 ping
@@ -13,6 +14,8 @@ iptables
 scp
 nmap
 traceroute
+ansible
+chef
 ss
 dig
 nslookup
@@ -37,10 +40,11 @@ ifup
 nc
 socat
 rsync
+dnsmasq
 telnet
 ftp
 sftp
-netstat
+netcat
 lsof
 fuser
 sysctl
@@ -49,3 +53,9 @@ getent
 plog
 rpcinfo
 modprobe
+sar
+ufw
+iostat
+vmstat
+tc
+chef
