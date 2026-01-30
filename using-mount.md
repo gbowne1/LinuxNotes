@@ -18,7 +18,7 @@ If I recall correctly only root can used most mount options so you have to be us
 
 `mount -n` says `only root can use "--no-mtab" option`
 
-`mount -o` says `mount: option requires an argument -- 'o'`
+`mount -o` says `mount: option requires an argument -- 'o'`. This is 'options', comma separated. options are: ro, rw, remount, noexec, loop, uid, gid
 
 `mount -r` says `bad usage`. mounts the filesystem in read-only mode
 
@@ -49,7 +49,7 @@ and can also be used to list or show currently mounted filesystem types.
 
 `mount -T` says option requires an agrument -- `T`. specifies a different /etc/fstab file
 
-`mount -U` says option requires an argument -- `U`
+`mount -U` says option requires an argument -- `U`. This is for mounting with a UUID.
 
 `mount -V` reports version from util-linux 2.33.1 (libmount 2.33.1)
 
